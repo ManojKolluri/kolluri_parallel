@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kolluri_parallel"
+version = "0.0.1"
+authors = [
+  { name="Manoj Kolluri", email="manojkolluri33@gmail.com" },
+]
+description = "Parallel for-loop implementation"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ManojKolluri/kolluri_parallel"
+Issues = "https://github.com/ManojKolluri/kolluri_parallel"
